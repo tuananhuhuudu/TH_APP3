@@ -1,0 +1,262 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "studentCode": "B23DCCN004",
+      "fullName": "Bui Duy Tuan Anh",
+      "className": "D23CQCN04-B",
+      "major": "Cong nghe thong tin",
+      "email": "anhbdt.b23cc004@stu.ptit.edu.vn",
+      "phone": "0912345678",
+      "updatedAt": "2026-10-20T08:00:00Z"
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "code": "RIPT1412",
+      "name": "Phat trien ung dung di dong da nen tang",
+      "credits": 3,
+      "lecturer": "TS. Nguyen Minh Huy",
+      "description": "Xay dung ung dung di dong da nen tang voi React Native: component, navigation, quan ly trang thai va luu tru du lieu cuc bo.",
+      "semester": "HK1 2026-2027"
+    },
+    {
+      "id": 2,
+      "code": "RIPT1411",
+      "name": "Lap trinh Web nang cao",
+      "credits": 3,
+      "lecturer": "ThS. Tran Thi Lan",
+      "description": "Phat trien ung dung web hien dai voi Node.js va React, thiet ke RESTful API, xac thuc nguoi dung va toi uu hieu nang.",
+      "semester": "HK1 2026-2027"
+    },
+    {
+      "id": 3,
+      "code": "INT1416",
+      "name": "Dam bao chat luong phan mem",
+      "credits": 3,
+      "lecturer": "TS. Le Van Dung",
+      "description": "Quy trinh dam bao chat luong phan mem, ky thuat kiem thu, quan ly loi va cac tieu chuan danh gia chat luong.",
+      "semester": "HK1 2026-2027"
+    },
+    {
+      "id": 4,
+      "code": "INT1448",
+      "name": "Phat trien phan mem huong dich vu",
+      "credits": 3,
+      "lecturer": "TS. Pham Quoc Bao",
+      "description": "Kien truc huong dich vu (SOA) va microservices, thiet ke va tich hop dich vu web, trien khai he thong phan tan.",
+      "semester": "HK1 2026-2027"
+    },
+    {
+      "id": 5,
+      "code": "RIPT1413",
+      "name": "Phan tich nghiep vu",
+      "credits": 3,
+      "lecturer": "ThS. Hoang Thi Mai",
+      "description": "Khao sat va phan tich nghiep vu, mo hinh hoa quy trinh, dac ta yeu cau va lap tai lieu cho du an phan mem.",
+      "semester": "HK1 2026-2027"
+    },
+    {
+      "id": 6,
+      "code": "BAS1153",
+      "name": "Lich su Dang Cong san Viet Nam",
+      "credits": 2,
+      "lecturer": "ThS. Do Van Thanh",
+      "description": "Qua trinh ra doi, phat trien va vai tro lanh dao cua Dang Cong san Viet Nam qua cac thoi ky cach mang.",
+      "semester": "HK1 2026-2027"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "courseId": 3,
+      "dayOfWeek": 3,
+      "startTime": "07:00",
+      "endTime": "09:25",
+      "room": "P.301-A2",
+      "note": "Mang laptop"
+    },
+    {
+      "id": 2,
+      "courseId": 4,
+      "dayOfWeek": 3,
+      "startTime": "09:35",
+      "endTime": "11:55",
+      "room": "P.302-A2",
+      "note": ""
+    },
+    {
+      "id": 3,
+      "courseId": 2,
+      "dayOfWeek": 3,
+      "startTime": "13:00",
+      "endTime": "15:25",
+      "room": "P.105-A3",
+      "note": "Kiem tra giua ky tuan 8"
+    },
+    {
+      "id": 4,
+      "courseId": 1,
+      "dayOfWeek": 4,
+      "startTime": "07:00",
+      "endTime": "09:25",
+      "room": "P.201-A1",
+      "note": "Mang laptop cai san Android Studio"
+    },
+    {
+      "id": 5,
+      "courseId": 5,
+      "dayOfWeek": 4,
+      "startTime": "09:35",
+      "endTime": "11:55",
+      "room": "P.203-A1",
+      "note": ""
+    },
+    {
+      "id": 6,
+      "courseId": 6,
+      "dayOfWeek": 6,
+      "startTime": "13:00",
+      "endTime": "15:25",
+      "room": "P.401-A2",
+      "note": ""
+    }
+  ],
+  "assignments": [
+    {
+      "id": 1,
+      "courseId": 1,
+      "title": "Thuc hanh 4: API va Offline",
+      "description": "Ket noi REST API bang json-server, ho tro che do offline voi cache va hang doi dong bo.",
+      "dueDate": "2026-11-09T23:59:00Z",
+      "status": "todo",
+      "updatedAt": "2026-10-26T08:00:00Z"
+    },
+    {
+      "id": 2,
+      "courseId": 2,
+      "title": "Xay dung RESTful API quan ly san pham",
+      "description": "Thiet ke API CRUD voi Node.js va Express, co xac thuc JWT va tai lieu Swagger.",
+      "dueDate": "2026-11-02T23:59:00Z",
+      "status": "todo",
+      "updatedAt": "2026-10-24T10:30:00Z"
+    },
+    {
+      "id": 3,
+      "courseId": 3,
+      "title": "Bao cao ke hoach kiem thu",
+      "description": "Lap test plan va thiet ke test case cho mot module cua he thong ban hang.",
+      "dueDate": "2026-10-23T23:59:00Z",
+      "status": "done",
+      "updatedAt": "2026-10-26T09:25:25.137Z"
+    },
+    {
+      "id": 4,
+      "courseId": 5,
+      "title": "Dac ta yeu cau phan mem (SRS)",
+      "description": "Viet tai lieu SRS cho he thong quan ly thu vien theo chuan IEEE 830.",
+      "dueDate": "2026-11-05T23:59:00Z",
+      "status": "todo",
+      "updatedAt": "2026-10-22T14:00:00Z"
+    },
+    {
+      "id": 5,
+      "courseId": 4,
+      "title": "Thiet ke kien truc microservices",
+      "description": "Phan ra he thong ban hang thanh cac service, mo ta giao tiep va co che trien khai.",
+      "dueDate": "2026-11-12T23:59:00Z",
+      "status": "todo",
+      "updatedAt": "2026-10-25T16:20:00Z"
+    },
+    {
+      "id": 6,
+      "courseId": 1,
+      "title": "Thuc hanh 3: Ung dung quan ly hoc tap",
+      "description": "Ung dung React Native gom 5 man hinh, ket hop Bottom Tab va Stack Navigation.",
+      "dueDate": "2026-10-19T23:59:00Z",
+      "status": "done",
+      "updatedAt": "2026-10-19T20:15:00Z"
+    },
+    {
+      "id": 7,
+      "courseId": 6,
+      "title": "Bai thu hoach chuong 2",
+      "description": "Trinh bay vai tro lanh dao cua Dang trong giai doan 1930 - 1945.",
+      "dueDate": "2026-10-09T23:59:00Z",
+      "status": "done",
+      "updatedAt": "2026-10-09T18:00:00Z"
+    },
+    {
+      "id": 8,
+      "courseId": 2,
+      "title": "Bai tap toi uu truy van",
+      "description": "Phan tich va toi uu 5 truy van cham, kem ket qua do truoc va sau.",
+      "dueDate": "2026-11-16T23:59:00Z",
+      "status": "todo",
+      "updatedAt": "2026-10-26T07:45:00Z"
+    }
+  ],
+  "grades": [
+    {
+      "id": 1,
+      "courseId": 1,
+      "semester": "HK1 2026-2027",
+      "attendance": 9,
+      "midterm": 8.5,
+      "final": 9,
+      "total": 8.85,
+      "letter": "A"
+    },
+    {
+      "id": 2,
+      "courseId": 2,
+      "semester": "HK1 2026-2027",
+      "attendance": 8.5,
+      "midterm": 7.5,
+      "final": 8,
+      "total": 7.9,
+      "letter": "B"
+    },
+    {
+      "id": 3,
+      "courseId": 3,
+      "semester": "HK1 2026-2027",
+      "attendance": 9.5,
+      "midterm": 7,
+      "final": 7.5,
+      "total": 7.55,
+      "letter": "B"
+    },
+    {
+      "id": 4,
+      "courseId": 4,
+      "semester": "HK1 2026-2027",
+      "attendance": 10,
+      "midterm": 9,
+      "final": 8.5,
+      "total": 8.8,
+      "letter": "A"
+    },
+    {
+      "id": 5,
+      "courseId": 5,
+      "semester": "HK1 2026-2027",
+      "attendance": 8,
+      "midterm": 6.5,
+      "final": 7,
+      "total": 6.95,
+      "letter": "C+"
+    },
+    {
+      "id": 6,
+      "courseId": 6,
+      "semester": "HK2 2025-2026",
+      "attendance": 9,
+      "midterm": 8,
+      "final": 8.5,
+      "total": 8.4,
+      "letter": "B+"
+    }
+  ]
+}

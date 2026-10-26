@@ -98,3 +98,11 @@ Desktop.ini
 .env
 .env.local
 .env.*.local
+
+# De bai
+*.docx
+
+# Bundle JS va asset sinh ra khi dong goi (chay `npx react-native bundle`)
+android/app/src/main/assets/index.android.bundle
+android/app/src/main/res/drawable-*/
+android/app/src/main/res/raw/
